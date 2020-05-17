@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SYAlertController_Example' do
+  pod 'SYAlertController', :path => '../'
+
+  target 'SYAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

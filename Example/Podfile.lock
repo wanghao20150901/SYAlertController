@@ -1,0 +1,16 @@
+PODS:
+  - SYAlertController (0.1.0)
+
+DEPENDENCIES:
+  - SYAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  SYAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYAlertController: 1c348e15e5a2fa55e72435339d8fe9483920b992
+
+PODFILE CHECKSUM: e45b2b17a3376516cc500fc070fa86be7f58f842
+
+COCOAPODS: 1.5.0
