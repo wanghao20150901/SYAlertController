@@ -7,12 +7,28 @@
 //
 
 #import "SYAppDelegate.h"
+#import <SYAlertController/SYAlertController.h>
+#import "SYViewController.h"
 
 @implementation SYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    application.statusBarHidden = YES;
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[SYViewController alloc] init];
+    self.window.windowLevel = UIWindowLevelAlert + 1;
+    [self.window makeKeyAndVisible];
+
+        
+    
+//    SYAlertController *alert = [SYAlertController alertControllerWithTitle:@"" message:@"测试测试测试测试测试测试的测试测试" image:@"error"];
+//    SYAlertController *alert = [SYAlertController alertControllerWithTitle:@"" message:@"测试测试测试测试测试测试的测试测试" image:@"success"];
+    SYAlertController *alert = [SYAlertController alertControllerWithTitle:@"" message:@"测试测试测试测试测试测试的测试测试" image:@"complete"];
+    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alert addAction:ok];
+    [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+    
     return YES;
 }
 

@@ -1,15 +1,22 @@
 PODS:
-  - SYAlertController (0.1.0)
+  - PureLayout (3.1.5)
+  - SYAlertController (0.1.0):
+    - PureLayout
 
 DEPENDENCIES:
   - SYAlertController (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PureLayout
 
 EXTERNAL SOURCES:
   SYAlertController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYAlertController: 1c348e15e5a2fa55e72435339d8fe9483920b992
+  PureLayout: 9b4ad47b2f0388c84ff534af23d96e720c1b875a
+  SYAlertController: 12d9011e928c0368d8758a1c3f28560e16d22b37
 
 PODFILE CHECKSUM: e45b2b17a3376516cc500fc070fa86be7f58f842
 

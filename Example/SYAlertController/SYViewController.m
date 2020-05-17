@@ -8,6 +8,8 @@
 
 #import "SYViewController.h"
 
+#import <SYAlertController/SYAlertController.h>
+
 @interface SYViewController ()
 
 @end
@@ -17,7 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:self.view.frame];
+    [imageView setImage:[UIImage imageNamed:@"background"]];
+    [self.view addSubview:imageView];
+    
 }
 
 - (void)didReceiveMemoryWarning
