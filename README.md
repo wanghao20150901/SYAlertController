@@ -17,9 +17,9 @@ UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyl
 
 ```
 
-![效果图1:](https://github.com/wanghao20150901/SYAlertController/blob/develop/Example/SYAlertController/180047.png)
-![效果图2:](https://github.com/wanghao20150901/SYAlertController/blob/develop/Example/SYAlertController/180125.png)
-![效果图3:](https://github.com/wanghao20150901/SYAlertController/blob/develop/Example/SYAlertController/180019.png)
+![效果图1:](https://github.com/wanghao20150901/SYAlertController/blob/develop/Example/SYAlertController/180019.png)
+![效果图2:](https://github.com/wanghao20150901/SYAlertController/blob/develop/Example/SYAlertController/180047.png)
+![效果图3:](https://github.com/wanghao20150901/SYAlertController/blob/develop/Example/SYAlertController/180125.png)
 
 ## Requirements
 
