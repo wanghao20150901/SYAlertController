@@ -17,9 +17,9 @@ UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyl
 
 ```
 
-[效果图1:](https://upload-images.jianshu.io/upload_images/6506842-d6aba990bc47b0e2.png?imageMogr2/auto-orient/strip|imageView2/2/w/766/format/webp)
-[效果图2:](https://upload-images.jianshu.io/upload_images/6506842-e621a5abbac99a3d.png?imageMogr2/auto-orient/strip|imageView2/2/w/740/format/webp)
-[效果图3:](https://upload-images.jianshu.io/upload_images/6506842-2534237b4e648703.png?imageMogr2/auto-orient/strip|imageView2/2/w/756/format/webp)
+[效果图1:](https://upload-images.jianshu.io/upload_images/6506842-d6aba990bc47b0e2.png)
+[效果图2:](https://upload-images.jianshu.io/upload_images/6506842-e621a5abbac99a3d.png)
+[效果图3:](https://upload-images.jianshu.io/upload_images/6506842-2534237b4e648703.png)
 
 ## Requirements
 
